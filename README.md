@@ -26,3 +26,8 @@ webServer
 ```bash
 python3 manage.py runserver
 ```
+
+Shell
+```bash
+python manage.py shell_plus
+```
