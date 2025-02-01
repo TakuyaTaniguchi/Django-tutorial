@@ -12,7 +12,7 @@ https://docs.djangoproject.com/ja/5.1/intro/tutorial01/
 ## **セットアップ手順**
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 ```
@@ -29,5 +29,5 @@ python3 manage.py runserver
 
 Shell
 ```bash
-python manage.py shell_plus
+python3 manage.py shell_plus
 ```
