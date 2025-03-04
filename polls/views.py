@@ -19,4 +19,5 @@ def results (request, question_id):
     return HttpResponse(response % question_id)
 
 def vote (request, question_id):
+    # vote関数を作る
     return HttpResponse("You're voting on question %s." % question_id)
