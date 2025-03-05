@@ -20,4 +20,5 @@ def results (request, question_id):
 
 def vote (request, question_id):
     # vote関数を作る
+    question = get_object_or_404(Question, pk=question_id)
     return HttpResponse("You're voting on question %s." % question_id)
